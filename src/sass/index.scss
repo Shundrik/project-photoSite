@@ -1,2 +1,16 @@
-@import './common';
-@import './example';
+@import './utils/var.scss';
+@import './utils/common';
+@import './utils/visually-hidden';
+@import './utils/plaseholders';
+
+@import './base/reset';
+@import './base/mixins';
+@import './base/container';
+
+@import './components/header/header';
+@import './components/hero/hero';
+@import './components/servises/servises';
+@import './components/contacts/contacts';
+@import './components/slider/slider';
+@import './components/gallery/gallery';
+@import './components/footer/footer';
