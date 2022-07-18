@@ -1,0 +1,33 @@
+body {
+
+  color: var(--primary-text-black);
+  font-family: var(--primery-font), sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.74;
+
+  letter-spacing: 0.04em;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-hidden {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    touch-action: none;
+    -ms-touch-action: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
